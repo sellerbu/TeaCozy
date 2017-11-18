@@ -3,7 +3,7 @@ body{
   color: seashell;
   opacity: 0.9;
   text-align: center;
-  font-family: helvetica sans-serif;
+  font-family: helvetica, Arimo;
   font-size: 22px;
 }
 .head {
@@ -40,7 +40,7 @@ nav span {
   flex-direction: column;
   align-content: center;
 }
-.mission{
+#mission{
   display: flex;
   flex-grow: 1;
   align-items: center;
@@ -95,6 +95,9 @@ nav span {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+.contact {
+  height: 200px;
 }
 .copyright {
   text-align: left;
